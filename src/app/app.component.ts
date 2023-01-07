@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Directive';
+  buttonClick = false;
+  number: number[] = [2, 3, 5,8,5,6];
+ 
+  ButtonClick() {
+    this.buttonClick = true;
+  }
+
+
+
 }
